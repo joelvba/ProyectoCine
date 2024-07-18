@@ -9,7 +9,7 @@ const RecordSchema = Schema(
     lastName: String,
     brand: String,
     birthdate: Number,
-    enum: ['Administrator', 'Employer','Custumer'],
+    enum: [ 'Administrator', 'Employer', 'Custumer' ],
     phone: Number,
     email: String,
     password: String,
