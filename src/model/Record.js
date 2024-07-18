@@ -9,12 +9,13 @@ const RecordSchema = Schema(
     lastName: String,
     brand: String,
     birthdate: Number,
-    roles: [Administrador, Empleado,cliente],
+    enum: ['Administrator', 'Employer','Custumer'],
     phone: Number,
     email: String,
     password: String,
     username: String,
-    Custumer: String,
+    custumer: String,
+    default: 'cliente',
   },
   {
     timestamps: {
